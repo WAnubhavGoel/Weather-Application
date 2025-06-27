@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #d8edf8;
+}
+.main-heading{
+    text-decoration: underline;
+}
+.main-heading, .LocationHeading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CitySearch{
+    margin: 1rem;
+}
+.CitySearch input{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    border-color: #007FFF;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.CitySearch button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.InfoBox{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 400px;
+    background-color: #16394c;
+    color: #d8edf8;
+    border: 2px solid black;
+}
+.WeatherInfo {
+    user-select: none;
+}
+#Emoji{
+    font-size: 100px;
+    text-align: center;
+}
+#Temperature{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#Weather, #Humidity, #WindSpeed{
+    font-size: 20px;
+    padding-left: 1rem;
+
+}
+.about{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-transform: capitalize;
+    border: 0.01rem solid black;
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    padding: 0.05rem 0.3rem;
+}
