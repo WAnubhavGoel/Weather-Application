@@ -66,15 +66,3 @@ body{
     padding-left: 1rem;
 
 }
-.about{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    text-transform: capitalize;
-    border: 0.01rem solid black;
-    border-radius: 0.6rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
-    padding: 0.05rem 0.3rem;
-}

@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     var LocationHeading = document.getElementsByClassName("LocationHeading")[0];
-    // var WeatherInfo = document.getElementsByClassName("WeatherInfo")[0];  // For displaying weather details
     var Temperature=document.getElementById("Temperature");
     var Weather=document.getElementById("Weather");
     var Humidity=document.getElementById("Humidity");
@@ -111,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
         Weather.innerText="Weather: "+result.weatherDescription;
         Humidity.innerText="Humidity: "+ result.humidity + "%";
         WindSpeed.innerText="Wind Speed: "+ result.windSpeed + " km/h";
-        // WeatherInfo.innerText = `Temperature: ${result.temp}°C, Humidity: ${result.humidity}%, Wind Speed: ${result.windSpeed} m/s, Weather: ${result.weatherDescription} ${result.emoji}`;
     }
 
     function showError(error) {
@@ -131,6 +129,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // window.getLocation = getLocation;
     window.getWeatherByCity = getWeatherByCity;
 });
